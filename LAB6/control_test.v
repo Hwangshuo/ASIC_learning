@@ -5,7 +5,7 @@
 `timescale 1 ns / 1 ns
 
 // Define the delay from stimulus to response check
-`define  DELAY      100
+`define  DELAY      80
 
 
 module control_test; wire rd; wire wr; wire ld_ir; wire ld_ac; wire ld_pc; wire inc_pc; wire halt; wire data_e; wire sel; reg [2:0] opcode; reg zero; reg clk; reg rst_; control ctr(rd,
